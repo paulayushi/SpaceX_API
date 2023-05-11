@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "K6MvsoSmdX7oab9J+TPAXvCLWPPHlpN/10q/TD1EWTw=",
+  "Source": "SpaceX.WebAPI",
+  "BasePath": "_content/SpaceX.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SpaceX.Services/1.0.0": {
+        "dependencies": {
+          "SpaceX.Models": "1.0.0"
+        },
+        "runtime": {
+          "SpaceX.Services.dll": {}
+        }
+      },
+      "SpaceX.Models/1.0.0": {
+        "runtime": {
+          "SpaceX.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SpaceX.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpaceX.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
