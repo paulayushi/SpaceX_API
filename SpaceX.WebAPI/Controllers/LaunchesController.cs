@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SpaceX.Services;
 
 namespace SpaceX.WebAPI.Controllers
 {
     [ApiController]
     [Route("spacex/api/launches/")]
+    [Authorize(Roles = "Admin")]
     public class LaunchesController : ControllerBase
     {
         private readonly ILaunchService _launchService;
