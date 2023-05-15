@@ -5,7 +5,7 @@ using SpaceX.Services;
 namespace SpaceX.WebAPI.Controllers
 {
     [ApiController]
-    [Route("spacex/api/launches/")]
+    [Route("spacex/launches/api/")]
     [Authorize(Roles = "Admin")]
     public class LaunchesController : ControllerBase
     {

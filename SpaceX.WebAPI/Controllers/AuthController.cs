@@ -5,7 +5,7 @@ using SpaceX.Services;
 namespace SpaceX.WebAPI.Controllers
 {
     [ApiController]
-    [Route("spacex/api/auth/")]
+    [Route("spacex/auth/api/")]
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authSvc;

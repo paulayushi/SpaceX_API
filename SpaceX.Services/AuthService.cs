@@ -23,7 +23,7 @@ namespace SpaceX.Services
             {
                 return Task.FromResult(currentUser);
             }
-            return null;
+            return Task.FromResult<UserModel>(null);
         }
 
         public Task<string> GenerateToken(UserModel user)
