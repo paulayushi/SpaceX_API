@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceX.WebAPI", "SpaceX.WebAPI\SpaceX.WebAPI.csproj", "{A0CB8827-A833-403F-A890-BE9AAD50E579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceX.WebAPI", "SpaceX.WebAPI\SpaceX.WebAPI.csproj", "{A0CB8827-A833-403F-A890-BE9AAD50E579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceX.Services", "SpaceX.Services\SpaceX.Services.csproj", "{F95EB81A-644A-40A8-AF35-8D11A907331B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceX.Services", "SpaceX.Services\SpaceX.Services.csproj", "{F95EB81A-644A-40A8-AF35-8D11A907331B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceX.Models", "SpaceX.Models\SpaceX.Models.csproj", "{BEB9AA4C-B9D4-4EAC-B2D5-8332C814CD75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceX.Models", "SpaceX.Models\SpaceX.Models.csproj", "{BEB9AA4C-B9D4-4EAC-B2D5-8332C814CD75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceX.Common", "SpaceX.Common\SpaceX.Common.csproj", "{FC817110-8C28-4AAD-939E-19608412E881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceX.Common", "SpaceX.Common\SpaceX.Common.csproj", "{FC817110-8C28-4AAD-939E-19608412E881}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

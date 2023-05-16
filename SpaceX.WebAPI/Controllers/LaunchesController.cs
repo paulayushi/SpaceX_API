@@ -23,8 +23,19 @@ namespace SpaceX.WebAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetLaunchById(long flight_number)
         {
-            var rensponse = await _launchService.GetLaunchById(flight_number);
-            return Ok(rensponse);
+            try
+            {
+                var rensponse = await _launchService.GetLaunchById(flight_number);
+                return Ok(rensponse);
+            }
+            catch (Exception ex)
+            {
+                if (ex.Message.Contains("404 (Not Found)."))
+                {
+                    return NotFound();
+                }
+                throw new HttpRequestException(ex.Message); ;
+            }
         }
 
         [HttpGet]
